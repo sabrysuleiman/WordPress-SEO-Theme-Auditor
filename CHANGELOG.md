@@ -2,6 +2,12 @@
 
 Notable changes to this project are documented here.
 
+## 1.1.0 - 2026-10-29
+
+- Published as an npm package with an executable CLI (`npx wp-seo-theme-auditor`).
+- Added `install`, `print`, `path`, and `info` commands, with `--dir`, `--local`, `--force`, and `--dry-run` options.
+- No changes to the skill instructions themselves.
+
 ## 1.0.0 - 2026-10-28
 
 - Initial public release of WordPress SEO Theme Auditor.

@@ -1,0 +1,56 @@
+{
+  "name": "wp-seo-theme-auditor",
+  "version": "1.1.0",
+  "description": "CLI installer for the WordPress SEO Theme Auditor AI skill — audit, diagnose, and fix WordPress theme SEO issues with an AI coding assistant.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./SKILL.md": "./SKILL.md",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "wp-seo-auditor": "./index.js",
+    "wp-seo-theme-auditor": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "SKILL.md",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js help",
+    "test": "node index.js info > /dev/null && node index.js print > /dev/null && node index.js install --dry-run > /dev/null && echo \"smoke tests passed\""
+  },
+  "keywords": [
+    "wordpress",
+    "seo",
+    "technical-seo",
+    "wordpress-theme",
+    "seo-audit",
+    "ai-skill",
+    "claude",
+    "cli",
+    "screaming-frog",
+    "ahrefs",
+    "semrush"
+  ],
+  "author": "Sabry Suleiman",
+  "license": "MIT",
+  "homepage": "https://github.com/sabrysuleiman/wordpress-seo-theme-auditor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabrysuleiman/wordpress-seo-theme-auditor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sabrysuleiman/wordpress-seo-theme-auditor/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

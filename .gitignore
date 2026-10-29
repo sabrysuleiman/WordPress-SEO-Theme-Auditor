@@ -4,3 +4,7 @@ Thumbs.db
 *.swo
 .idea/
 .vscode/
+node_modules/
+*.tgz
+npm-debug.log*
+.npmrc
